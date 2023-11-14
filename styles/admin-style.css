@@ -1,0 +1,136 @@
+/* w-90 - 90% Width for all header, footer, middle content [main, sidebar]  */
+.w-90 {
+  width: 90%;
+}
+/* Fixed Brand Width */
+.navbar-brand {
+  font-size: 24px;
+}
+
+/* Fixed Height */
+.fix-h-30 {
+  height: 30px;
+}
+
+/* Fixed Width */
+.fix-w-200 {
+  width: 200px;
+}
+
+/* Fixed Padding */
+/* Fixed Padding Start */
+.fix-ps-6 {
+  padding-left: 6px;
+}
+
+/* Fixed Padding End */
+.fix-pe-6 {
+  padding-right: 6px;
+}
+
+/* navBarToggler - Navbar Toggle Outline = none */
+/* .navbar .navbar-toggler:focus {
+  outline: none !important;
+} */
+
+/* btnLess - Borderless Button */
+button {
+  border-style: none;
+}
+
+/* prfBtn - Profile Button Settings */
+.profile-btn {
+  border-style: none;
+}
+
+/* prfBox - Profile Box Settings */
+.profile-box {
+  /* Set your desired background color */
+  background-color: #3e4348;
+  height: 50px;
+  width: 130px;
+  overflow: hidden;
+  /* Set cursor to pointer to indicate interactivity */
+  cursor: pointer;
+}
+
+/* prfBoxImg - Fixed Image Dimensions */
+.profile-box img {
+  width: 40px;
+  height: 40px;
+}
+
+/* prfBoxStatCir - Status Circle Size */
+.profile-box .status-circle {
+  padding: 6px;
+  top: 30px;
+  right: 6px;
+}
+
+/* prfBoxName - Name */
+.profile-box #name {
+  font-size: 12px;
+  color: #fff;
+}
+
+/* prfBoxRole - Role */
+.profile-box #role {
+  font-size: 10px;
+  color: #c2b8b8;
+}
+
+/* prfBoxHover - Hover */
+.profile-box:hover,
+.headphones-btn:hover,
+.mic-btn:hover,
+.log-off-btn:hover,
+.setting-btn:hover {
+  background-color: #646f79;
+}
+
+/* btnPaddingCustom - Padding x-dir:2px y-dir:4px */
+.btn-p-custom {
+  padding: 2px 4px;
+}
+
+.expand-profile-box img {
+  width: 100px;
+  height: 100px;
+}
+/* 
+.offcanvas-end {
+  min-width: 220px !important;
+  max-width: 220px !important;
+} */
+
+body {
+  padding-top: 56px; /* Adjusted to accommodate fixed navbar height */
+}
+
+@media (max-width: 992px) {
+  body {
+    padding-top: 0;
+  }
+
+  .offcanvas {
+    max-width: 200px !important; /* Set your desired fixed width */
+    min-width: 200px !important; /* Set your desired fixed width */
+  }
+}
+
+#sidebar {
+  width: 0;
+}
+
+#main-content,
+#footer {
+  margin-left: 0;
+}
+
+#sidebarCollapse:after {
+  content: "\2039"; /* Unicode character for left-pointing angle quotation mark */
+}
+
+#sidebarCollapse.collapsed:after {
+  content: "\203A"; /* Unicode character for right-pointing angle quotation mark */
+}

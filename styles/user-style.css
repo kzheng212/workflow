@@ -1,0 +1,97 @@
+/* No Button Border */
+button {
+    border-style: none;
+  }
+  
+  /* Transparent button */
+  .custom-button {
+    background-color: transparent;
+  }
+  
+  /* Custom styles go here */
+  .profile-box {
+    background-color: #414b53; /* Set your desired background color */
+    height: 50px;
+    width: 128px;
+    overflow: hidden;
+    cursor: pointer; /* Set cursor to pointer to indicate interactivity */
+  }
+  
+  .profile-box .status-circle {
+    padding: 6px;
+    bottom: 10px;
+    left: 18px;
+  }
+  
+  .expand-profile-box .status-circle {
+    width: 20px;
+    height: 20px;
+    bottom: 20px;
+    left: 76px;
+  }
+  
+  .profile-box:hover,
+  .headphones-icon:hover,
+  .mic-icon:hover {
+    background-color: #646f79;
+  }
+  
+  /* Fixed Profile Image Dimensions */
+  .profile-box img {
+    width: 45px;
+    height: 45px;
+  }
+  
+  .expand-profile-box img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Fixed Expand-profile-box Dimensions */
+  .expand-profile-box {
+    width: 100px;
+  }
+  
+  .custom-width {
+    width: 262px;
+  }
+  
+  /* Role's Text Size */
+  .profile-box #name {
+    font-size: 12px;
+    color: #fff;
+  }
+  
+  .profile-pic {
+    position: relative;
+    top: 7px;
+    left: 5px;
+  }
+  
+  /* Role's Text Size */
+  .profile-box #role {
+    font-size: 10px;
+  }
+  
+  .headphones-icon,
+  .mic-icon {
+    background-color: #414b53;
+    color: #161616;
+    padding: 0;
+    height: 28px;
+    width: 30px;
+    border-radius: 5px;
+    margin-right: 1px;
+  }
+  
+  /* Colored Cog Icon */
+  .fa-gear,
+  .fa-lock {
+    color: rgb(174, 169, 169);
+    text-align: center;
+  }
+  
+  /* Profile bar's button's margin-right spacing */
+  .profile-bar > button {
+    margin-right: 5px;
+  }
